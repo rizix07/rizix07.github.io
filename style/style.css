@@ -1,0 +1,139 @@
+body {
+	overflow-x: hidden;
+	margin: 0;
+}
+
+/*#site {
+	width: 1000px;
+	margin: auto;
+	background-color: lightblue;
+}*/
+
+#banner1 {
+	display: block;
+	background-color: #7fffbb;
+	height: 50px;
+	width: 100%;
+}
+
+#banner1 p {
+	position: relative;
+	font-weight: bold;
+	font-size: 30px;
+	top: 7px;
+	margin: 0;
+	text-align: center;
+}
+
+#menu {
+	position: absolute; 
+	top: 60%;    
+	left: 50%; 
+	transform: translate(-0%, -50%);          
+	font-size: 20px;  
+	color: lightseagreen; 
+}
+
+#menu ul {
+	float: left;
+	left: 50%;
+	position: relative;
+	padding-top: 15px;
+	margin-left: -60px;
+}
+
+#menu ul li {
+	margin-left: 20px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+}
+
+#menu ul li a {
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	background-color: #7fffbb;
+	height: 30px;
+	width: 100px;
+	color: black;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color: white;
+	background-color: #13703f;
+}
+
+#banner2 {
+	display: block;
+	background-color: #7fffbb;
+	height: 50px;
+	width: 100%;
+}
+
+#contenuprincipal {
+	display: block;
+	width: 900px;
+	margin: auto;
+	position: absolute;
+	text-align: center; 
+	display: block; 
+	color: #27be6e; 
+	width: 100%;
+	font-size: 50px;   
+}
+
+#footer {
+	text-align: center;
+	display: block;
+	background-color: #7fffbb;
+	height: 60px;
+}
+
+#footer p {
+	color: #164a29;
+	font-weight: bold;
+	position: relative;
+	top: 18px;
+}
+#insta {
+	position: absolute; 
+	top: 40%;
+	left: 50%; 
+	transform: translate(-40%, -60%); 
+	font-size: 80px; 
+}
+
+#clown {
+	position: absolute; 
+	top: 40%;
+	left: 50%; 
+	transform: translate(-40%, -60%); 
+	font-size: 50px;
+	color: mediumslateblue;
+
+}
+
+#back {
+	font-family: 'Open Sans', sans-serif;
+	background-color: blue;  
+}
+
+#ig {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-40%, -50%);  
+	font-size: 30px;
+	color: darkred; 	
+}
+
+#ig2 {
+	position: absolute; 
+	top: 72%;
+	left: 47%; 
+	transform: translate(-10%, -60%); 
+	font-size: 20px; 
+}
